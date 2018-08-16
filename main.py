@@ -15,7 +15,6 @@ print('Banlist loaded...')
 bot = telebot.TeleBot(keys.TOKEN)
 print('Signal with Telegram Bot API is established...')
 print('Telegram bot is working...')
-my_str = str(None)
 
 
 def get_command_params(message_content):

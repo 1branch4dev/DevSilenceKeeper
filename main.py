@@ -88,7 +88,8 @@ def is_message_dangerous(message_content):
 @bot.message_handler(commands=['help'])
 def show_help(message):
     if is_admin(message):
-        answer_text = ('Я знаю следующие команды:' + '\n/help — получить справку команд'
+        answer_text = ('Я знаю следующие команды:'
+                       + '\n/help — получить справку команд'
                        + '\n/showbanlist — показать список строк-шаблонов в банлисте'
                        + '\n/add {строка-шаблон} — добавить строку-шаблон в банлист'
                        + '\n/remove {строка-шаблон} — удалить строку-шаблон из банлиста'
